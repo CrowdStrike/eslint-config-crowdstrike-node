@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-crowdstrike-node",
+  "version": "1.0.0",
+  "description": "ESLint Node.js config for CrowdStrike",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint:js": "eslint . --ext js,json",
+    "lint:md": "remark -f README.md",
+    "test": "yarn lint:js && yarn lint:md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CrowdStrike/eslint-config-crowdstrike-node.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Kelly Selden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrowdStrike/eslint-config-crowdstrike-node/issues"
+  },
+  "homepage": "https://github.com/CrowdStrike/eslint-config-crowdstrike-node#readme",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-crowdstrike": "^1.0.0",
+    "eslint-config-crowdstrike-node": "link:",
+    "eslint-plugin-json-files": "0.7.0",
+    "eslint-plugin-node": "^9.1.0",
+    "remark-cli": "^7.0.0",
+    "remark-preset-lint-crowdstrike": "^1.0.0"
+  },
+  "peerDependencies": {
+    "eslint-config-crowdstrike": "1",
+    "eslint-plugin-json-files": "0.7",
+    "eslint-plugin-node": "9"
+  }
+}
