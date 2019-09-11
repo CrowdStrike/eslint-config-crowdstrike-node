@@ -7,9 +7,11 @@
     "index.js"
   ],
   "scripts": {
+    "lint:git": "commitlint",
     "lint:js": "eslint . --ext js,json",
     "lint:md": "remark -f README.md",
-    "test": "yarn lint:js && yarn lint:md"
+    "release": "standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint:git && yarn lint:js && yarn lint:md"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,7 @@
     "node": ">=8.10"
   },
   "devDependencies": {
+    "@crowdstrike/commitlint": "^1.0.1",
     "eslint": "^6.0.1",
     "eslint-config-crowdstrike": "^1.0.0",
     "eslint-config-crowdstrike-node": "link:",
@@ -36,7 +39,8 @@
     "eslint-plugin-node": "^9.1.0",
     "remark-cli": "^7.0.0",
     "remark-preset-lint-crowdstrike": "^1.0.0",
-    "renovate-config-standard": "^2.0.0"
+    "renovate-config-standard": "^2.0.0",
+    "standard-version": "^7.0.0"
   },
   "peerDependencies": {
     "eslint-config-crowdstrike": "1",
