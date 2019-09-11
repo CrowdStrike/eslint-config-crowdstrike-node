@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-crowdstrike-node",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ESLint Node.js config for CrowdStrike",
   "main": "index.js",
   "files": [
