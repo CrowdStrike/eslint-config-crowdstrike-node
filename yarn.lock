@@ -131,10 +131,10 @@
   dependencies:
     find-up "^4.0.0"
 
-"@crowdstrike/commitlint@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@crowdstrike/commitlint/-/commitlint-1.0.1.tgz#36522bc1ad0bec422fa76b5699e9cb90d7479427"
-  integrity sha512-dFJ10Z9KucWkWLSsGmpmiAagLU5O2XHX0vupx30fj8qGOzvmdp+OvfLtwttZtiveIFKt/OhKngKaIA6+NVBfpw==
+"@crowdstrike/commitlint@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/@crowdstrike/commitlint/-/commitlint-1.0.3.tgz#ec921d21b2ffa3dc86bdfd9c1a80fcbfe95ba48f"
+  integrity sha512-HqIUKCMbIsortbIh85SweGBVYGljhFg4qWdYFI3tPPm3ndoK6q7N2IIhb836y/oRD+F8pHRHFW5jMsQ0HblQqw==
   dependencies:
     "@commitlint/config-conventional" "^8.1.0"
     "@commitlint/format" "^8.1.0"
@@ -811,7 +811,8 @@ escape-string-regexp@^1.0.5:
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
 "eslint-config-crowdstrike-node@link:.":
-  version "1.0.0"
+  version "0.0.0"
+  uid ""
 
 eslint-config-crowdstrike@^1.0.0:
   version "1.0.0"
