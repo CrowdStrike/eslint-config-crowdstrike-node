@@ -10,7 +10,7 @@
     "lint:git": "commitlint",
     "lint:js": "eslint . --ext js,json",
     "lint:md": "remark -f README.md",
-    "release": "standard-version && git push --follow-tags && npm publish",
+    "release": "standard-version && git push --follow-tags --atomic && npm publish",
     "test": "yarn lint:git && yarn lint:js && yarn lint:md"
   },
   "repository": {
