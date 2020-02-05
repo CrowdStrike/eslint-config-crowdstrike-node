@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v2.1.0...v2.2.0) (2020-02-05)
+
+
+### Features
+
+* relax `eslint-config-crowdstrike` peer dep ([51508eb](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/commit/51508eb7b7fc8e90be908b3242feb7402785cae4))
+
 ## [2.1.0](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v2.0.1...v2.1.0) (2020-01-28)
 
 
