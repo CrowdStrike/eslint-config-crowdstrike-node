@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/CrowdStrike/eslint-config-crowdstrike-node#readme",
   "engines": {
-    "node": ">=8.10"
+    "node": ">=10"
   },
   "devDependencies": {
     "@crowdstrike/commitlint": "^1.0.3",
