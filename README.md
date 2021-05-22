@@ -4,3 +4,5 @@
 [![Build Status](https://travis-ci.org/CrowdStrike/eslint-config-crowdstrike-node.svg?branch=master)](https://travis-ci.org/CrowdStrike/eslint-config-crowdstrike-node)
 
 [ESLint](https://eslint.org) [Node.js](https://nodejs.org) config for [CrowdStrike](https://www.crowdstrike.com)
+
+Uses [eslint-config-crowdstrike](https://github.com/CrowdStrike/eslint-config-crowdstrike)
