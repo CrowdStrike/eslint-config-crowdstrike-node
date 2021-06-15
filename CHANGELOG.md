@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v3.0.0...v3.0.1) (2021-06-15)
+
+
+### Bug Fixes
+
+* ignore `dynamicImport` false errors ([6bed22d](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/commit/6bed22d0c0452808374fa0dc69d3659a14b48e32))
+* remove engines ([d13356b](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/commit/d13356b7fec89e47f92127d8d3f89547a22600c1))
+
 ## [3.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v2.2.0...v3.0.0) (2020-10-16)
 
 
