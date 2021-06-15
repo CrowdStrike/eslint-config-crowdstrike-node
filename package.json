@@ -31,7 +31,7 @@
     "node": ">=10"
   },
   "devDependencies": {
-    "@crowdstrike/commitlint": "^3.0.0",
+    "@crowdstrike/commitlint": "^4.0.0",
     "eslint": "^7.0.0",
     "eslint-config-crowdstrike": "^3.0.0",
     "eslint-config-crowdstrike-node": "link:",
