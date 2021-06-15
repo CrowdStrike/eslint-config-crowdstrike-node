@@ -5,4 +5,7 @@ module.exports = {
   extends: [
     'crowdstrike-node',
   ],
+  rules: {
+    'json-files/require-engines': 'off',
+  },
 };
