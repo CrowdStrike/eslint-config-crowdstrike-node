@@ -1,8 +1,0 @@
-language: node_js
-node_js:
-- node
-branches:
-  only:
-  - master
-  # npm version tags
-  - /^v\d+\.\d+\.\d+$/
