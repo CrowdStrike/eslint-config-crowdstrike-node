@@ -32,9 +32,6 @@
     "url": "https://github.com/CrowdStrike/eslint-config-crowdstrike-node/issues"
   },
   "homepage": "https://github.com/CrowdStrike/eslint-config-crowdstrike-node#readme",
-  "engines": {
-    "node": ">=10"
-  },
   "devDependencies": {
     "@crowdstrike/commitlint": "^3.0.0",
     "eslint": "^7.0.0",
