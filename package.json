@@ -37,7 +37,7 @@
     "eslint": "^7.0.0",
     "eslint-config-crowdstrike": "^4.0.0",
     "eslint-config-crowdstrike-node": "link:",
-    "eslint-plugin-json-files": "1.1.0",
+    "eslint-plugin-json-files": "^1.2.0",
     "eslint-plugin-node": "^11.0.0",
     "remark-cli": "^10.0.0",
     "remark-preset-lint-crowdstrike": "^2.0.0",
