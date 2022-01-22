@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/CrowdStrike/eslint-config-crowdstrike-node#readme",
   "devDependencies": {
-    "@crowdstrike/commitlint": "^4.0.0",
+    "@crowdstrike/commitlint": "^5.0.0",
     "eslint": "^8.0.0",
     "eslint-config-crowdstrike": "^4.0.0",
     "eslint-config-crowdstrike-node": "link:",
