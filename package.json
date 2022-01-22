@@ -7,7 +7,7 @@
     "index.js"
   ],
   "scripts": {
-    "lint:git": "commitlint",
+    "lint:git": "commitlint --default-branch main",
     "lint:js": "eslint . --ext js,json",
     "lint:md": "remark -f README.md",
     "release": "standard-version",
