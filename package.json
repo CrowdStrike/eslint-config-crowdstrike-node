@@ -35,7 +35,7 @@
   "devDependencies": {
     "@crowdstrike/commitlint": "^6.0.0",
     "eslint": "^8.0.0",
-    "eslint-config-crowdstrike": "^10.0.0",
+    "eslint-config-crowdstrike": "10.0.0",
     "eslint-config-crowdstrike-node": "link:",
     "eslint-plugin-json-files": "^2.0.0",
     "eslint-plugin-node": "^11.0.0",
