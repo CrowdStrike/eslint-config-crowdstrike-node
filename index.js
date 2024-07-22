@@ -6,7 +6,7 @@ module.exports = {
   },
   extends: [
     'crowdstrike',
-    'plugin:node/recommended',
+    'plugin:n/recommended',
   ],
   plugins: [
     'json-files',
@@ -14,9 +14,10 @@ module.exports = {
   rules: {
     'strict': 'error',
 
-    'node/no-unsupported-features/es-syntax': ['error', {
+    'n/no-unsupported-features/es-syntax': ['error', {
       'ignores': [
-        // remove once https://github.com/mysticatea/eslint-plugin-node/issues/250 is fixed
+        // remove once we upgrade to v17
+        // https://github.com/eslint-community/eslint-plugin-n/issues/80
         'dynamicImport',
       ],
     }],
