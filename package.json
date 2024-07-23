@@ -46,6 +46,7 @@
   },
   "peerDependencies": {
     "eslint-config-crowdstrike": ">=1",
-    "eslint-plugin-json-files": ">=0.8"
+    "eslint-plugin-json-files": ">=0.8",
+    "eslint-plugin-n": ">=14"
   }
 }
