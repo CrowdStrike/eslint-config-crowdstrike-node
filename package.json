@@ -34,7 +34,7 @@
   "homepage": "https://github.com/CrowdStrike/eslint-config-crowdstrike-node#readme",
   "devDependencies": {
     "@crowdstrike/commitlint": "^8.0.0",
-    "eslint": "^8.0.0",
+    "eslint": "^9.0.0",
     "eslint-config-crowdstrike": "10.1.0",
     "eslint-config-crowdstrike-node": "link:",
     "eslint-plugin-json-files": "^4.0.0",
