@@ -38,7 +38,7 @@
     "eslint-config-crowdstrike": "10.1.0",
     "eslint-config-crowdstrike-node": "link:",
     "eslint-plugin-json-files": "^4.0.0",
-    "eslint-plugin-n": "^14.0.0",
+    "eslint-plugin-n": "^17.0.0",
     "remark-cli": "^12.0.0",
     "remark-preset-lint-crowdstrike": "^4.0.0",
     "renovate-config-standard": "^2.0.0",
@@ -47,6 +47,6 @@
   "peerDependencies": {
     "eslint-config-crowdstrike": ">=1",
     "eslint-plugin-json-files": ">=0.8",
-    "eslint-plugin-n": ">=14"
+    "eslint-plugin-n": ">=15.1"
   }
 }
