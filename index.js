@@ -1,3 +1,5 @@
+'use strict';
+
 const jsonFiles = require('eslint-plugin-json-files');
 const globals = require('globals');
 const { FlatCompat } = require('@eslint/eslintrc');
