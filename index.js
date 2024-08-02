@@ -19,7 +19,7 @@ module.exports = [
     plugins: {
       'json-files': jsonFiles,
     },
-
+    processor: "json-files/json",
     languageOptions: {
       globals: {
         ...globals.node,
