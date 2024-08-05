@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "lint:git": "commitlint --default-branch main",
-    "lint:js": "eslint . --ext js,json",
+    "lint:js": "eslint .",
     "lint:md": "remark -f README.md",
     "release": "standard-version",
     "test": "yarn lint:git && yarn lint:js && yarn lint:md"
@@ -32,12 +32,17 @@
     "url": "https://github.com/CrowdStrike/eslint-config-crowdstrike-node/issues"
   },
   "homepage": "https://github.com/CrowdStrike/eslint-config-crowdstrike-node#readme",
+  "dependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.8.0",
+    "globals": "^15.8.0"
+  },
   "devDependencies": {
     "@crowdstrike/commitlint": "^8.0.0",
-    "eslint": "^8.0.0",
+    "eslint": "^9.0.0",
     "eslint-config-crowdstrike": "10.1.0",
     "eslint-config-crowdstrike-node": "link:",
-    "eslint-plugin-json-files": "^4.0.0",
+    "eslint-plugin-json-files": "^4.3.0",
     "eslint-plugin-n": "^17.0.0",
     "remark-cli": "^12.0.0",
     "remark-preset-lint-crowdstrike": "^4.0.0",
@@ -45,8 +50,9 @@
     "standard-version": "^9.0.0"
   },
   "peerDependencies": {
+    "eslint": ">=8.57.0",
     "eslint-config-crowdstrike": ">=1",
-    "eslint-plugin-json-files": ">=0.8",
-    "eslint-plugin-n": ">=15.1"
+    "eslint-plugin-json-files": ">=4.3.0",
+    "eslint-plugin-n": ">=16.1.0"
   }
 }
