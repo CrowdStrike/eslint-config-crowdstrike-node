@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0-beta.0](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v3.0.1...v4.0.0-beta.0) (2024-08-05)
+
+
+### Features
+
+* migrate deprecated eslint-config-node to eslint-config-n, and u… ([#89](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/issues/89)) ([b9f9efb](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/commit/b9f9efbb58716c3bef14d6290867caa31254caba))
+* use yarnrc to enforce yarnpkg registry ([e08199d](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/commit/e08199df33b13e4cf8927405b9be5d9c0f718cad))
+
 ### [3.0.1](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v3.0.0...v3.0.1) (2021-06-15)
 
 
