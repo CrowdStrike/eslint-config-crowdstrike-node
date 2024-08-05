@@ -13,13 +13,14 @@ const compat = new FlatCompat({
 });
 
 module.exports = [
-  ...compat.extends('crowdstrike'),
   nodePlugin.configs['flat/recommended-script'],
+  ...compat.extends('crowdstrike'),
   {
+    files: ['**/*.json'],
     plugins: {
       'json-files': jsonFiles,
     },
-    processor: "json-files/json",
+    processor: 'json-files/json',
     languageOptions: {
       globals: {
         ...globals.node,
