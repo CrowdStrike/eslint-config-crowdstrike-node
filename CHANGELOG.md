@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0-beta.1](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v4.0.0-beta.0...v4.0.0-beta.1) (2024-08-06)
+
+
+### Features
+
+* move explicitly required packages in index.js to dependencies, from devDependencies ([c0dce73](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/commit/c0dce73e46203e09e36212e57c5df298e078a467))
+
 ## [4.0.0-beta.0](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v3.0.1...v4.0.0-beta.0) (2024-08-05)
 
 
