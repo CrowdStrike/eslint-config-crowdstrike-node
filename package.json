@@ -35,6 +35,7 @@
   "dependencies": {
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.8.0",
+    "eslint-config-crowdstrike": "10.1.0",
     "eslint-plugin-json-files": "^4.3.0",
     "eslint-plugin-n": "^17.0.0",
     "globals": "^15.8.0"
@@ -42,7 +43,6 @@
   "devDependencies": {
     "@crowdstrike/commitlint": "^8.0.0",
     "eslint": "^9.0.0",
-    "eslint-config-crowdstrike": "10.1.0",
     "eslint-config-crowdstrike-node": "link:",
     "remark-cli": "^12.0.0",
     "remark-preset-lint-crowdstrike": "^4.0.0",
@@ -50,7 +50,6 @@
     "standard-version": "^9.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=8.57.0",
-    "eslint-config-crowdstrike": ">=1"
+    "eslint": ">=8.57.0"
   }
 }
