@@ -1256,12 +1256,11 @@ eslint-compat-utils@^0.5.1:
 
 "eslint-config-crowdstrike-node@link:.":
   version "0.0.0"
-  uid ""
 
-eslint-config-crowdstrike@11.0.0-beta.0:
-  version "11.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-crowdstrike/-/eslint-config-crowdstrike-11.0.0-beta.0.tgz#8e795d13555f4bb374e093e3bed3cc617fd13507"
-  integrity sha512-OiDvVG5wIr+ToCMlYsYdJDwMODSapsqvJ7uQ0KWeVD7cfcvibK/4SIqWAnP5BpLrNG75/QPlo4171RS5L5bepg==
+eslint-config-crowdstrike@11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-crowdstrike/-/eslint-config-crowdstrike-11.0.0.tgz#5b3b09170a5e95faf2bf735bab781f5d8782336b"
+  integrity sha512-xqgBp/CQGtc5U88owH5ZR5sp2iXFa//YP8LUucuvVZZm+3y3NQKADLyDP9vF7SEPZ3nhCBN/7drxZnpDCxs3oA==
   dependencies:
     "@eslint/js" "^9.0.0"
 
