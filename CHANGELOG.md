@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v4.0.0-beta.2...v4.0.0) (2024-08-09)
+
+
+### Features
+
+* return eslint-config-crowdstrike to peer and devDep ([#100](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/issues/100)) ([d55185e](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/commit/d55185ed954aa0d01c1d7b726003ddde3fa4f492))
+* use major release 11.0.0 of eslint-config-crowdstrike ([2249842](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/commit/22498426f238eb92ba700fc634f8269a31fb28ab))
+
 ## [4.0.0-beta.2](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v4.0.0-beta.1...v4.0.0-beta.2) (2024-08-09)
 
 
