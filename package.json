@@ -48,7 +48,7 @@
     "standard-version": "^9.0.0"
   },
   "peerDependencies": {
-    "eslint-config-crowdstrike": ">=11",
-    "eslint": ">=8.57.0"
+    "eslint": ">=8.57.0",
+    "eslint-config-crowdstrike": ">=11"
   }
 }
