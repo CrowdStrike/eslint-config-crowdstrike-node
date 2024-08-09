@@ -1,20 +1,13 @@
 'use strict';
 
-const jsonFiles = require('eslint-plugin-json-files');
+const crowdstrikeConfig = require('eslint-config-crowdstrike');
 const globals = require('globals');
-const { FlatCompat } = require('@eslint/eslintrc');
-const js = require('@eslint/js');
+const jsonFiles = require('eslint-plugin-json-files');
 const nodePlugin = require('eslint-plugin-n');
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname, // optional; default: process.cwd()
-  resolvePluginsRelativeTo: __dirname, // optional
-  recommendedConfig: js.configs.recommended, // optional unless using "eslint:recommended"
-});
 
 module.exports = [
   nodePlugin.configs['flat/recommended-script'],
-  ...compat.extends('crowdstrike'),
+  ...crowdstrikeConfig,
   {
     files: ['**/*.json'],
     plugins: {

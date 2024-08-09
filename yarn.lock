@@ -254,7 +254,7 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@eslint/js@9.8.0", "@eslint/js@^9.8.0":
+"@eslint/js@9.8.0", "@eslint/js@^9.0.0":
   version "9.8.0"
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.8.0.tgz#ae9bc14bb839713c5056f5018bcefa955556d3a4"
   integrity sha512-MfluB7EUfxXtv3i/++oh89uzAr4PDI4nn201hsp+qaXqsjAWzinlZEHEfPgAX4doIlKvPG/i0A9dpKxOLII8yA==
@@ -1258,10 +1258,12 @@ eslint-compat-utils@^0.5.1:
   version "0.0.0"
   uid ""
 
-eslint-config-crowdstrike@10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-crowdstrike/-/eslint-config-crowdstrike-10.1.0.tgz#f46fd56e4ec9b4f89d27be608aea049530db164e"
-  integrity sha512-Wy4HdaVBfe5ItXI71Szv2viO7yvX8ZMeG1TblxYy84eAYi9S2p5fMzlwU1JJUlocu7cKBS697+KWYUM8+zk6oQ==
+eslint-config-crowdstrike@11.0.0-beta.0:
+  version "11.0.0-beta.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-crowdstrike/-/eslint-config-crowdstrike-11.0.0-beta.0.tgz#8e795d13555f4bb374e093e3bed3cc617fd13507"
+  integrity sha512-OiDvVG5wIr+ToCMlYsYdJDwMODSapsqvJ7uQ0KWeVD7cfcvibK/4SIqWAnP5BpLrNG75/QPlo4171RS5L5bepg==
+  dependencies:
+    "@eslint/js" "^9.0.0"
 
 eslint-plugin-es-x@^7.5.0:
   version "7.8.0"
