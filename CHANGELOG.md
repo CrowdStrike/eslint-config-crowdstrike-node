@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0-beta.2](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v4.0.0-beta.1...v4.0.0-beta.2) (2024-08-09)
+
+
+### Features
+
+* use eslintv9 compatible beta version of eslint-config-crowdstrike ([bf26548](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/commit/bf26548a1f07b2ad037bd347186c0f1c6538125f))
+
 ## [4.0.0-beta.1](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v4.0.0-beta.0...v4.0.0-beta.1) (2024-08-06)
 
 
