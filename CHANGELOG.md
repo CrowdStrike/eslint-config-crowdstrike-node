@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.1](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v4.0.0...v4.0.1) (2024-08-19)
+
+
+### Bug Fixes
+
+* use module/cjs agnostic ruleset ([97610a5](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/commit/97610a51bda79560d8bcd927e7776b455b54d5d5))
+
 ## [4.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike-node/compare/v4.0.0-beta.2...v4.0.0) (2024-08-09)
 
 
