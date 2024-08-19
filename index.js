@@ -6,7 +6,7 @@ const jsonFiles = require('eslint-plugin-json-files');
 const nodePlugin = require('eslint-plugin-n');
 
 module.exports = [
-  nodePlugin.configs['flat/recommended-script'],
+  nodePlugin.configs['flat/recommended'],
   ...crowdstrikeConfig,
   {
     files: ['**/*.json'],
