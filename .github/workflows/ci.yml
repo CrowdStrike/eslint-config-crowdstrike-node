@@ -25,7 +25,7 @@ jobs:
           echo "Invalid base_ref: '$ref'"
           exit 1
         fi
-    - uses: actions/setup-node@v4
+    - uses: actions/setup-node@v5
 
     - run: yarn install --frozen-lockfile --ignore-scripts
     - run: yarn lint:git
@@ -37,7 +37,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
+    - uses: actions/setup-node@v5
 
     - run: yarn install --frozen-lockfile --ignore-scripts
     - run: yarn lint:md
